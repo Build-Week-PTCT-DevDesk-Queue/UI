@@ -1,8 +1,8 @@
-* {
+/* * { */
 	/* padding: 0; */
 	/* margin: 0; */
 	/* box-sizing: border-box; */
-}
+/* } */
 body{
 	background: #dfd8d8;  /* main background */
 	/* padding: 2%; */
@@ -65,9 +65,9 @@ nav li a:hover, nav li.active a{
 	color:#454545;
 }
 
-nav li:last-clild a{
-	border-none;
-}
+/* nav li:last-clild a{ */
+	/* border-none; */
+/* } */
 
 /*-- Banner Style --*/
 .banner{
