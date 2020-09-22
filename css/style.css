@@ -14,6 +14,9 @@ body{
 header{
 	text-align: center;  /* center the logo */
 }
+header a img{
+	width: 10vh;  /* I set this to view height because it looks more natural to me across devices.  I could be totally wrong about this.
+}
 
 p{
 	text-indent: 5%;  /* put an indent before p text */
