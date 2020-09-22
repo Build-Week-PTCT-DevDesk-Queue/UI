@@ -4,7 +4,7 @@
 	/* box-sizing: border-box; */
 /* } */
 body{
-	background: #dfd8d8;  /* main background */
+	background: #ffffff;  /* main background */
 	/* padding: 2%; */
 	font-family: sans-serif;  /* I change this */
 	font-size: 1.8rem;
@@ -83,7 +83,8 @@ nav li a:hover, nav li.active a{
     height: 40vh; /* height of container */
 	object-fit: cover;
 	/* object-position: 20% 10px;  */
-    border: 5px solid rgb(102, 8, 8);
+	border: 5px solid rgb(102, 8, 8);
+	margin-bottom: 10vh;
 }
 
 /*-- other section style --*/
