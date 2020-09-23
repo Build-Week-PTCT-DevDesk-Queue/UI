@@ -47,16 +47,3 @@ table {
 	border-spacing: 0;
 }
 /*GENERAL STYLES*/
-
-/* * {
-    border: 1px solid red !important;
-} */
-
-html{
-    font-size:62.5%;
-}
-body{
-    font-size:1.6rem;	/* set default font size to 16px */
-    line-height: 1.5;   /* line height for all text */
-    /* font-family: 'Raleway', sans-serif; */
-}

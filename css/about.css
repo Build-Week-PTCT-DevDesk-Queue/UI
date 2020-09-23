@@ -105,6 +105,20 @@ nav li a:hover, nav li.active a{
 	margin-bottom: 10vh;
 }
 
+
+.member{
+    color: black;
+    margin: 10% auto;
+}
+.team {
+    display:flex;
+    flex-direction: column;
+}
+.row1, .row2{
+    display:flex;
+    flex-direction: row;
+
+}
 /*-- other section style --*/
 
 section{
@@ -189,5 +203,14 @@ footer{
 	}
 	p{
 		font-size:95%;
-	}
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+    }
+    .row1, .row2{
+        display:flex;
+        flex-direction: column;
+
+    }
 }
