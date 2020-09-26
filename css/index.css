@@ -140,19 +140,19 @@ footer{
 
 /*---media queries--*/
 
-@media only screen and (max-width: 780px){
+@media(max-width: 780px){
 	nav{
 		margin: 2% auto;
 	}
 	nav li a{
-		width: 33.3%;
+		/* width: 33.3%; */
 		font-size:90%;
 		padding: 2% 0;
 		border-bottom: 1px solid #454545;
 	}
-	nav li:nth-clild(3) a{
+	/* nav li:nth-clild(3) a{
 		border-right: none;
-	}
+	} */
 	section {
 		width: 100%;
 	}
@@ -173,17 +173,17 @@ footer{
 	}
 }
 
-@media only screen and (max-width: 580px){
-	nav li a{
+@media(max-width: 580px){
+	/* nav li a{
 		width: 50%;
 		font-size:82%;
-	}
-	nav li:nth-clild(even) a{
+	} */
+	/* nav li:nth-clild(even) a{
 		border-right: none;
 	}
-	nav li:nth-chile(3) a{
+	nav li:nth-child(3) a{
 		border-right: 1px solid #454545;
-	}
+	} */
 	h2{
 		font-size: 95%;
 	}
