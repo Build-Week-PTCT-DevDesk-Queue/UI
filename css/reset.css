@@ -46,8 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*GENERAL STYLES*/
 
+/*GENERAL STYLES*/
 /* * {
     border: 1px solid red !important;
 } */
@@ -55,8 +55,183 @@ table {
 html{
     font-size:62.5%;
 }
+
 body{
     font-size:1.6rem;	/* set default font size to 16px */
     line-height: 1.5;   /* line height for all text */
     /* font-family: 'Raleway', sans-serif; */
 }
+.container{
+	width: 90%;
+	margin: auto;
+}
+body{
+	background: #ffffff;  /* main background */
+	font-family: sans-serif;
+	font-size: 1.8rem;
+	color:#fafafa;
+}
+header{
+	text-align: center;  /* center the logo */
+}
+header a img{
+	width: 10vw;
+}
+
+p{
+	text-indent: 5%;
+}
+
+h2{
+	text-align: center;
+}
+
+/*---Start of Navigation ---*/
+
+nav{
+	/* width: 100%; */
+	/* margin: 100% auto; */
+	/* overflow: hidden; */
+	display: flex;
+	justify-content: center;
+}
+
+nav ul{
+	/* overflow: hidden; */
+	display: flex;  /* allows nav items to line up in row naturally */
+	justify-content: center;
+}
+nav li{  /* where the buttons are */
+	padding: 40px 0px;
+	width: 10%; /* this can be 0-16 or so with 6 items */
+	display: flex;
+	justify-content: space-around;
+}
+nav li a{  /* what the buttons look like */
+	border-radius: 10px;
+	background: #737373;
+	border-right: 3px solid #454545;
+	color:#fafafa;
+	font-size: 2rem;
+	font-weight: 600;
+	width: 100px;
+	padding: 0 10px;
+	text-decoration: none;
+	transition: background 0.5s ease;
+}
+
+nav li a:hover, nav li.active a{
+	background: #dadada;
+	color:#454545;
+}
+
+/* nav li:last-clild a{ */
+	/* border-none; */
+/* } */
+
+/*-- Banner Style --*/
+.banner{
+	display: flex;
+	justify-content: center;
+}
+
+.banner img{
+	width: 80%; /* width of container */
+    height: 40vh; /* height of container */
+	object-fit: cover;
+	/* object-position: 20% 10px;  */
+	border: 5px solid rgb(102, 8, 8);
+	margin-bottom: 10vh;
+}
+
+
+/*-- other section style --*/
+
+section{
+	float: left;
+	width: 70%;
+	padding: 2%;
+	margin: 1% 0;
+	background: #6d6d6d;
+}
+
+aside{
+	float: right;
+	width: 28%;
+	padding: 2%;
+	margin: 1% 0;
+	background: #6d6d6d;
+}
+
+footer{
+	float: left;
+	width: 100%;
+	margin: 1% 0;
+	padding: 2%;
+	background: #6d6d6d;
+}
+
+.one-third{
+	float: left;
+	width: 31%;
+	padding:1%;
+	margin: 0 1%;
+}
+
+/*---media queries--*/
+
+@media(max-width: 1024px){
+	body{
+		background-color: hotpink;
+	}
+}
+@media(max-width: 800px){
+	nav{
+		margin: 2% auto;
+	}
+	nav li a{
+		/* width: 33.3%; */
+		font-size:90%;
+		padding: 2% 0; /* contain nav items */
+		border-bottom: 1px solid #454545;
+	}
+	/* nav li:nth-clild(3) a{
+		border-right: none;
+	} */
+	section {
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+	footer{
+		width: 100%;
+	}
+	.one-third{
+		width: 100%;
+	}
+	h2{
+		font-size: 105%;
+	}
+	p{
+		font-size:95%;
+	}
+}
+
+@media (max-width: 500px){
+	/* nav li a{
+		width: 50%;
+		font-size:82%;
+	}
+	nav li:nth-clild(even) a{
+		border-right: none;
+	}
+	nav li:nth-child(3) a{
+		border-right: 1px solid #454545;
+	} */
+	/* h2{
+		font-size: 95%;
+	} */
+	/* p{
+		font-size:95%;
+    } */

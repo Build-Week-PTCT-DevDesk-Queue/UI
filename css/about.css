@@ -1,0 +1,26 @@
+
+/*-- Member Section --*/
+.member{
+    color:rgb(0, 0, 0);
+	margin: 0 auto;
+}
+.memberImg img{
+	border-radius: 100%;
+	filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+.memberName {
+	text-align: center;
+}
+.team {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+/*---media queries--*/
+
+@media(max-width: 1024px){}
+
+@media(max-width: 800px){}
+
+@media (max-width: 500px){}
