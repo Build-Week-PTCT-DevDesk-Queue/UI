@@ -24,3 +24,9 @@
 @media(max-width: 800px){}
 
 @media (max-width: 500px){}
+
+@media (any-hover: hover) {
+    marquee:hover {
+      background: rgb(255, 0, 212);
+    }
+  }
