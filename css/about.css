@@ -1,32 +1,33 @@
-
 /*-- Member Section --*/
-.member{
-    color:rgb(0, 0, 0);
-	margin: 0 auto;
+.member {
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
 }
-.memberImg img{
-	border-radius: 100%;
-	filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+.memberImg img {
+  border-radius: 100%;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 .memberName {
-	text-align: center;
+  text-align: center;
 }
 .team {
-    display:flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-
 
 /*---media queries--*/
 
-@media(max-width: 1024px){}
+@media (max-width: 1024px) {
+}
 
-@media(max-width: 800px){}
+@media (max-width: 800px) {
+}
 
-@media (max-width: 500px){}
+@media (max-width: 500px) {
+}
 
 @media (any-hover: hover) {
-    marquee:hover {
-      background: rgb(255, 0, 212);
-    }
+  marquee:hover {
+    background: rgb(255, 0, 212);
   }
+}
