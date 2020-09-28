@@ -1,0 +1,84 @@
+/*---Start of Navigation ---*/
+
+nav{
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul{
+    /* overflow: hidden; */
+	display: flex;  /* allows nav items to line up in row naturally */
+	justify-content: center;
+}
+nav li{  /* where the buttons are */
+	padding: 5vh 0;
+	width: 10%; /* this can be 0-16 or so with 6 items */
+	display: flex;
+	justify-content: space-around;
+}
+nav li a{  /* what the buttons look like */
+	border-radius: 10px;
+    background: #4579EA;
+    margin-right: 2%;
+    border-right: 3px solid #454545;  /* little dark curve on the right side*/
+	color:#FFFFFF;
+	font-size: 3vw;
+	font-weight: 600;
+	width: 20vw;
+	text-decoration: none;
+	transition: background 0.5s ease;
+}
+
+nav li a:hover, nav li.active a{
+	background: #dadada;
+	color:#454545;
+}
+
+/* nav li:last-clild a{ */
+	/* border-none; */
+/* } */
+
+
+/*---media queries--*/
+
+@media(max-width: 1024px){
+	nav li{
+		/* background: rgb(21, 12, 37); */
+	}
+}
+
+@media(max-width: 800px){
+		nav li{
+			/* background: rgb(21, 12, 37); */
+			padding: 4% 0 0 0;
+		}
+    /* nav{ */
+		/* margin: 2% auto; */
+	/* } */
+	/* nav li a{ */
+		/* width: 33.3%; */
+		/* font-size:90%; */
+		/* padding: 2% 0; contain nav items */
+		/* border-bottom: 1px solid #454545; */
+	/* } */
+	/* nav li:nth-clild(3) a{
+		border-right: none;
+	} */
+/* } */
+
+@media (max-width: 500px){
+	.comtainer{
+		/* background-color: rgb(21, 12, 37); */
+	}
+    	/* nav li a{
+		width: 50%;
+		font-size:82%;
+	}
+	nav li:nth-clild(even) a{
+		border-right: none;
+	}
+	nav li:nth-child(3) a{
+		border-right: 1px solid #454545;
+	} */
+}

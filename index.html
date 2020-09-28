@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Dev Desk</title>
-		<link href="css\index.css" rel="stylesheet">
+<head>
+	<title>Help Desk</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+				<!-- links -->
+	<!-- Order here is important. Reset first. -->
+	<link href="css\reset.css" rel="stylesheet">
+	<link href="css\general.css" rel="stylesheet">
+	<link href="css\index.css" rel="stylesheet">
+	<link href="css\nav.css" rel="stylesheet">
+</head>
 
-		<link rel="stylesheet" href="css\reset.css">
-	</head>
 <body class="container">
 
 <header>
-	<a href="#"><img src="img\HDbridgelogo7.png"/></a>
+	<a href="#"><img src="img\HDbridgelogo7.png" alt="This is the Help Desk logo.  It's design looks like a bridge symbolizing making connections!"></a>
 </header>
+
 <nav>
 	<ul>
-		<li class='active'><a href="#">Home</a></li>
-		<li><a href="about.html">About</a></li>
-		<li><a href="#">Things</a></li>
-		<li><a href="#">Things</a></li>
-		<li><a href="#">Things</a></li>
-		<li><a href="contact.html">Contact</a></li>
+		<li class='active'aria-label="Home button. Active"><a href="#">Home</a></li>
+		<li><a href="about.html"aria-label="About button. Inactive">About</a></li>
+		<li><a href="#" aria-label="Thing button. Inactive">Things</a></li>
+		<li><a href="#" aria-label="Thing button. Inactive">Things</a></li>
+		<li><a href="#" aria-label="Thing button. Inactive">Things</a></li>
+		<li><a href="contact.html" aria-label="Contact button. Inactive">Contact</a></li>
+
 	</ul>
 </nav>
+
+<hr>
+
 <div class="banner">
-	<img src="img/worklg.jpg">
+	<img src="img/worklg.jpg"alt="Image of office workers being super productive">
 </div>
+
+<hr>
+
 <section>
 	<heading>
 		<h2>Landing Page Text</h2>
